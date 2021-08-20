@@ -6,13 +6,112 @@
     <title>Travel</title>
 
     <!-- main css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <!-- remix icon -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
   </head>
   <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav_logo">Travel</a>
+        <div class="nav_menu" id="nav_menu">
+          <ul class="nav_list">
+            <li class="nav_item">
+              <a href="#home" class="nav_link">home</a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">about</a>
+            </li>
+            <li class="nav_item">
+              <a href="#descover" class="nav_link">descover</a>
+            </li>
+            <li class="nav_item">
+              <a href="#places" class="nav_link">places</a>
+            </li>
+
+          </ul>
+          <i class="ri-close-fill nav_close" id="nav_close"></i>
+        </div>
+        <div class="nav_toggle" id="nav_toggle">
+          <i class="ri-function-line"></i>
+        </div>
+
+
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="home " id="home">
+        <img src="assets/img/home1.jpg" alt="home1" class="home_img">
+        <div class="home_container container grid">
+          <div class="home_data">
+            <div class="home_data_subtitle">descover your place</div>
+            <h1 class="home_data_title">explore the <br>best <b>beautifull</b></h1>
+            <a href="#" class="button">explore</a>
+          </div>
+        <div class="home_social">
+          <a href="https://www.instagram.com" target="_blank" class="home_social_link">
+            <i class="ri-instagram-line"></i>
+          </a>
+          <a href="https://www.snapshat.com" target="_blank" class="home_social_link">
+            <i class="ri-snapchat-line"></i>
+          </a>
+          <a href="https://www.twitter.com" target="_blank" class="home_social_link">
+            <i class="ri-twitter-line"></i>
+          </a>
+        </div>
+        <div class="home_info">
+          <div>
+            <span class="home_info_title">best place to visit</span>
+        <a href="#" class="button button_flex button_link home_info_button">
+          more<i class="ri-arrow-right-s-line"></i>
+        </a>
+
+          </div>
+          <div class="home_info_overlay">
+            <img src="assets/img/home2.jpg" class="home_info_img" alt="">
+          </div>
+          
+        </div>
+
+      </div>
+
+      </section>
+      <section class="section about" id="about">
+        <div class="about_container container grid">
+          <div class="about_data">
+            <h2 class="section_title about_title">more information <br>about best beaches</h2>
+          <p class="about_describtion">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas, mollitia fugiat? Officiis 
+            exercitationem labore in perspiciatis laboriosam, fugiat iure aliquam?</p>
+         <a href="#" class="button">Reserve a place</a>
+          </div>
+          <div class="about_img">
+            <div class="about_img_overlay">
+              <img src="assets/img/place1.jpg" alt="" class="about_img_one">
+            </div>
+
+            <div class="about_img_overlay">
+              <img src="assets/img/place2.jpg" alt="" class="about_img_one">
+            </div>
+
+            <div class="about_img_overlay">
+              <img src="assets/img/place3.jpg" alt="" class="about_img_one">
+            </div>
+
+            <div class="about_img_overlay">
+              <img src="assets/img/place4.jpg" alt="" class="about_img_one">
+            </div>
+
+
+          </div>
+        </div>
+
+      </section>
+
+    </main>
     <!--  -->
+    <script src="assets/js/script.js"></script>
 
   </body>
 </html>
