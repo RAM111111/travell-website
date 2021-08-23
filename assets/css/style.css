@@ -335,6 +335,42 @@ margin-bottom: var(--m-2);
   transform: var(--img-scale);
 }
 
+/*  */
+
+.descover_card{
+position: relative;
+width: 200px;
+overflow: var(--img-hidden);
+}
+
+.descover_data{
+  position: absolute;
+  bottom: 1.5rem;
+  left: 1rem;
+}
+
+.descover_title,
+.descover_description{
+  color: var(--white-color);
+}
+
+.descover_title{
+  font-size: var(--h3-font-size);
+  margin-bottom: var(--m-0-25);
+}
+
+.descover_description{
+  display: block;
+  font-size: var(--small-font-size);
+}
+
+.descover_img{
+  transition: var(--img-transition);
+}
+.descover_img:hover{
+  transform: var(--img-scale);
+}
+
 
 
 @media screen and (max-width:767px){

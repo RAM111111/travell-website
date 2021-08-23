@@ -10,6 +10,11 @@
 
     <!-- remix icon -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+  
+    <!-- swiper css -->
+    
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
   </head>
   <body>
     <header class="header" id="header">
@@ -95,41 +100,43 @@
             </div>
           </div>
         </div>
-      </section class="descover section" id="descover">
+        </section>
+      <section class="descover section" id="descover">
       <h2 class="section_title">descover the most <br>attractive place</h2>
-      <div class="descover_container container">
-        <div class="">
+     
+      <div class="descover_container container swiper-container">
+        <div class="swiper-wrapper">
 
-          <div class="descover_card">
+          <div class="descover_card ">
             <img src="assets/img/discover1.jpg" alt="" class="descover_img">
             <div class="descover_data">
               <h2 class="descover_title">bali</h2>
-              <span class="descover_describtion">24 tour availabel</span>
+              <span class="descover_description">24 tour availabel</span>
             </div>
           </div>
 
-          <div class="descover_card">
+          <div class="descover_card ">
             <img src="assets/img/discover2.jpg" alt="" class="descover_img">
             <div class="descover_data">
               <h2 class="descover_title">hawaii</h2>
-              <span class="descover_describtion">15 tour availabel</span>
+              <span class="descover_description">15 tour availabel</span>
             </div>
           </div>
 
-          <div class="descover_card">
+          <div class="descover_card ">
             <img src="assets/img/discover3.jpg" alt="" class="descover_img">
             <div class="descover_data">
               <h2 class="descover_title">maldives</h2>
-              <span class="descover_describtion">18 tour availabel</span>
+              <span class="descover_description">18 tour availabel</span>
             </div>
           </div>
 
 
-          <div class="descover_card">
+          <div class="descover_card ">
             <img src="assets/img/discover4.jpg" alt="" class="descover_img">
             <div class="descover_data">
               <h2 class="descover_title">cane</h2>
-              <span class="descover_describtion">9 tour availabel</span>
+              <span class="descover_description">9 tour availabel</span>
             </div>
           </div>
 
@@ -137,11 +144,15 @@
 
         </div>
       </div>
+      </section>
       <section>
 
       </section>
     </main>
-    <!--  -->
+        <!-- swiper js -->
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- main js -->
     <script src="assets/js/script.js"></script>
 
   </body>

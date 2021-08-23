@@ -21,3 +21,17 @@ const navmenu = document.getElementById("nav_menu"),
         if(this.scrollY >= 100)header.classList.add('scroll_header');else header.classList.remove('scroll_header');
     }
     window.addEventListener('scroll',scrollheader);
+
+
+    var swiper = new Swiper(".descover_container", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        loop:true,
+        spaceBetween:32,
+        coverflowEffect: {
+          rotate: 50,
+        },
+
+      });
