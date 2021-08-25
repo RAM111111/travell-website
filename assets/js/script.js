@@ -23,15 +23,14 @@ const navmenu = document.getElementById("nav_menu"),
     window.addEventListener('scroll',scrollheader);
 
 
-    var swiper = new Swiper(".descover_container", {
+    let swiper = new Swiper(".descover_container", {
         effect: "coverflow",
         grabCursor: true,
         centeredSlides: true,
         slidesPerView: "auto",
-        loop:true,
-        spaceBetween:32,
+        loop: true,
+        spaceBetween: 32,
         coverflowEffect: {
-          rotate: 50,
+            rotate: 0,
         },
-
-      });
+    })
