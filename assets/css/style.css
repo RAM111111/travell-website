@@ -529,6 +529,41 @@ transition: var(--img-transition);
   transform: var(--img-scale);
 }
 
+/*  */
+
+.subscribe_bg{
+  background-color: var(--first-color-second);
+  padding: 2.5rem 0;
+}
+
+.subscribe_title,
+.subscribe_describtion{
+  color: var(--white-color);
+}
+
+.subscribe_describtion{
+  text-align: center;
+  margin-bottom: var(--m-2-25);
+}
+
+.subscribe_form{
+  background-color: var(--input-color);
+  padding: .5rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subscribe_input{
+  width: 70%;
+  padding-right: .5rem;
+  background-color: var(--input-color);
+  color: var(--text-color);
+}
+
+.subscribe_input::placeholder{
+  color: var(--text-color);
+}
+
 
 
 
