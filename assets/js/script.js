@@ -34,3 +34,36 @@ const navmenu = document.getElementById("nav_menu"),
             rotate: 0,
         },
     })
+
+
+
+    // 
+    const videofile = document.getElementById("video_file"),
+          videobutton= document.getElementById("video_button"),
+          videoicon = document.getElementById("video_icon")
+
+
+    function playpause(){
+        if(videofile.paused){
+            videofile.play()
+            videoicon.classList.add("ri-pause-line")
+            videoicon.classList.remove("ri-play-line")
+
+        }else{
+            videofile.pause()
+            videoicon.classList.add("ri-play-line")
+            videoicon.classList.remove("ri-pause-line")
+
+        }
+    }
+
+    videobutton.addEventListener('click',playpause)
+
+    function finalvideo(){
+
+        videoicon.classList.add("ri-play-line")
+        videoicon.classList.remove("ri-pause-line")
+
+        }
+
+        videofile.addEventListener("ended",finalvideo)

@@ -430,6 +430,33 @@ transition: var(--img-transition);
     overflow-x: var(--img-hidden);
   }
 
+  /*  */
+
+  .video_container{
+    padding-bottom: 1rem;
+  }
+
+  .video_describtion{
+    text-align: center;
+    margin-bottom: var(--m-2-25);
+  }
+
+  .video_content{
+    position: relative;
+  }
+  .video_button{
+    position: absolute;
+    right: 1rem;
+    bottom: -1rem;
+    padding: 1rem 1.5rem;
+  }
+
+  .video_button_icon{
+    font-size: 1.2rem;
+  }
+
+
+
 
 
 
